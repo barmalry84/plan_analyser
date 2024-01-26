@@ -1,4 +1,4 @@
-# usage python floor_plan_analizer.py plan.txt or python3 floor_plan_analizer.py plan.txt
+# usage python floor_plan_analyser.py plan.txt or python3 floor_plan_analyser.py plan.txt
 
 from dataclasses import dataclass, field
 from re import finditer, search
@@ -86,7 +86,7 @@ def print_floor_plan_results(rooms):
 if __name__ == "__main__":
      # Check for correct command line arguments
     if len(sys.argv) != 2:
-        print("Usage: python script.py <path_to_floor_plan>")
+        print("Usage: python floor_plan_analyser_v2.py <path_to_floor_plan>")
         sys.exit(1)
 
     file_path = sys.argv[1]
